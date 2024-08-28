@@ -2,15 +2,21 @@
 
 A new Flutter project.
 
-## Getting Started
+## Instalacion
 
-This project is a starting point for a Flutter application.
+1. Clonar el Proyecto
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+git clone https://github.com/andriby/platzi_tripss_app.git
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. Acceder al proyecto clonado
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+cd platzi_tripss_app
+```
+
+3. Ejecutar el proyecto con FLutter
+```bash
+flutter run
+```
