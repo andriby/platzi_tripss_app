@@ -18,13 +18,6 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
         ),
         home: Scaffold(
-          // appBar: AppBar(
-          //   title: const Text(
-          //     'Hola Platzi',
-          //     style: TextStyle(color: Colors.white),
-          //   ),
-          //   backgroundColor: Colors.blue[600],
-          // ),
           body: Stack(
             children: <Widget>[
               ListView(
@@ -36,9 +29,7 @@ class MyApp extends StatelessWidget {
               const HeaderAppbar(),
             ],
           ),
-          // body: DescriptionPlace("Dwilli Ella", 1, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit'),
         )
-        //const MyHomePage(title: 'Prueba hot reload'),
         );
   }
 }
